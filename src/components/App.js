@@ -6,7 +6,7 @@ import { useState } from "react";
 const App = () => {
   const [count, setCount] = useState(0)
   function changeCount(){
-    setCount(count+1)
+    setCount(count+1);
   }
   return (
     <div>
